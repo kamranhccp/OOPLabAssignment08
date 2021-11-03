@@ -18,7 +18,6 @@ public class TapePlayingTimeMinutes extends PublicationBook{
     }
 
     public void tapeDisplay(){
-        System.out.println("<=== Publication Details ===>" + "\n");
         super.publicationBDisplay();
         System.out.println("Playing Time in Minutes: " + playingTimeMinutes);
     }

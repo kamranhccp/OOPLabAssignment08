@@ -6,9 +6,7 @@ public class Runner {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("===========================");
-        System.out.println("    PUBLICATION DETAILS    ");
-        System.out.println("===========================");
+        System.out.println("<== Enter your Details ==>");
 
         System.out.print("Enter Publication Title: ");
         String publicationTitle = input.nextLine();

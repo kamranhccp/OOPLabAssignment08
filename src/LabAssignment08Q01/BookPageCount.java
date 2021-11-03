@@ -17,7 +17,6 @@ public class BookPageCount extends PublicationBook{
     }
 
     public void countPDisplay(){
-        System.out.println("<=== Page Count Details ===>" + "\n");
         super.publicationBDisplay();
         System.out.println("Page Count of Book: " + pageCount + "\n");
     }

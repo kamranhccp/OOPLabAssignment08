@@ -26,7 +26,10 @@ public class PublicationBook {
     }
 
     public void publicationBDisplay(){
-        System.out.println("\n\n" + "<=== Publication Details ===>" + "\n" +
+        System.out.println("=================================");
+        System.out.println("    PUBLICATION/TAPE DETAILS     ");
+        System.out.println("=================================");
+        System.out.println(
                 "Title of Publication: " + publicationTitle + "\n" +
                 "Price of Publication: " + publicationPrice);
     }
